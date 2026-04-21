@@ -48,7 +48,7 @@ This release candidate is restamped to the verified source commit below.
 | Field | Value |
 |-------|-------|
 | Verdict | STAGED |
-| Commit SHA | 328a0ef0105f |
+| Verified Source Commit | 328a0ef0105f |
 | Confidence | 100% |
 | Source | proofs/artifacts/public_smell_surrogate_scope.json |
 
