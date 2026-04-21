@@ -43,12 +43,12 @@ The current repo is useful now for audit and replication on that declared surfac
 - We do not claim coverage of a full empirical receptor panel or general smell perception.
 
 ## Commercial Readiness
-This local remediation surface is pending final authority restamp.
+This release candidate is restamped to the verified source commit below.
 
 | Field | Value |
 |-------|-------|
 | Verdict | STAGED |
-| Commit SHA | UNSTAMPED |
+| Commit SHA | 328a0ef0105f |
 | Confidence | 100% |
 | Source | proofs/artifacts/public_smell_surrogate_scope.json |
 

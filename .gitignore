@@ -7,3 +7,4 @@ dist/
 build/
 *.egg-info/
 validation/results/latest_public_eval.json
+validation/results/*.local.json
