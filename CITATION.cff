@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+title: "ZPE-Smell"
+message: "If you use this repo, please cite the repository and the committed proof artifact."
+type: software
+authors:
+  - family-names: "Zer0pa"
+version: 0.1.0
+date-released: 2026-04-20
+repository-code: "https://github.com/Zer0pa/ZPE-Smell"
+abstract: "A bounded smell encoding repo over a surrogate receptor-response panel."
