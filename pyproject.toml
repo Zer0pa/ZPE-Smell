@@ -5,6 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "zpe-smell"
 version = "0.1.0"
+license = "LicenseRef-Zer0pa-SAL-7.0"
 description = "Bounded smell encoding research repo over a surrogate receptor-response panel."
 readme = "README.md"
 requires-python = ">=3.11"
