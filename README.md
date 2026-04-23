@@ -1,5 +1,7 @@
 # ZPE-Smell
 
+[![License: SAL v7.0](https://img.shields.io/badge/license-SAL%20v7.0-orange)](https://github.com/Zer0pa/ZPE-Smell/blob/main/LICENSE)
+
 ## What This Is
 ZPE-Smell is a research-in-progress smell encoding repo built around a bounded surrogate receptor-response panel. It packages a standalone smell codec, a fixed 35-episode benchmark surface, and the committed evidence needed to reproduce that bounded result.
 

@@ -9,7 +9,7 @@ description = "Bounded smell encoding research repo over a surrogate receptor-re
 readme = "README.md"
 requires-python = ">=3.11"
 authors = [
-  { name = "Zer0pa" }
+  { name = "Zer0pa (Pty) Ltd" }
 ]
 dependencies = [
   "numpy>=1.26",
