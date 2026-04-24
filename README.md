@@ -50,7 +50,7 @@ This release candidate is restamped to the verified source commit below.
 | Field | Value |
 |-------|-------|
 | Verdict | STAGED |
-| Commit SHA | 328a0ef0105f |
+| Commit SHA | 48507cbfcdc5 |
 | Confidence | 100% |
 | Source | proofs/artifacts/public_smell_surrogate_scope.json |
 

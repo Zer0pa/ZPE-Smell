@@ -1,5 +1,21 @@
 # Security Policy
 
-If you believe you have found a security issue in this repo, report it through GitHub's private security reporting path when available.
+## Supported Scope
 
-If private reporting is unavailable, open an issue with minimal reproduction detail and mark it as a security report so the maintainer can follow up without expanding the public surface unnecessarily.
+This policy covers package installation, local CLI reproduction, committed proof artifacts, and repository automation for `zpe-smell`.
+
+Scientific disagreements about the bounded smell claim surface belong in the `evidence_dispute` issue template, not the security channel.
+
+## Reporting
+
+Use GitHub Security Advisories for this repository if that route is available.
+
+If advisories are unavailable, email `architects@zer0pa.ai` with the repo name, affected version or commit, reproduction steps, and any sensitive material needed to reproduce the issue.
+
+Do not post secrets, exploit payloads, or unpublished attack details in a public issue.
+
+## Response Targets
+
+- Acknowledgement within 5 business days.
+- Initial triage within 10 business days.
+- Post-triage remediation timing depends on severity, exploitability, and proof-surface impact.

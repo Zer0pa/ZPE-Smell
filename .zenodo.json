@@ -1,0 +1,25 @@
+{
+  "title": "ZPE-Smell",
+  "description": "ZPE-Smell is a research-in-progress smell encoding repo built around a bounded surrogate receptor-response panel. It packages a standalone smell codec, a fixed 35-episode benchmark surface, and the committed evidence needed to reproduce that bounded result.",
+  "creators": [
+    {
+      "name": "Zer0pa (Pty) Ltd"
+    }
+  ],
+  "keywords": [
+    "smell",
+    "olfaction",
+    "receptor-response",
+    "surrogate-panel",
+    "mixture-encoding"
+  ],
+  "license": "LicenseRef-Zer0pa-SAL-7.0",
+  "upload_type": "software",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/Zer0pa/ZPE-Smell",
+      "relation": "isSupplementTo",
+      "resource_type": "software"
+    }
+  ]
+}
