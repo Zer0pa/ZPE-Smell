@@ -10,7 +10,7 @@ ZPE-Smell is one of seventeen public encoding lanes in the Zer0pa ZPE portfolio.
 
 ## Key Metrics
 
-| Metric | Value | Gate |
+| Metric | Value | Baseline |
 |---|---:|---|
 | SPEARMAN_RHO | 0.9996 | reference |
 | NN_AT_1 | 94.29% | reference |
@@ -54,6 +54,8 @@ This repo publishes the bounded public verdict carried by the committed proof ar
 | Field | Value |
 |-------|-------|
 | Verdict | `STAGED` |
+| Posture | `bounded_adopter_on_surrogate_scope` |
+| State Label | `research_in_progress` |
 | Certified Subset Admission | `NO` |
 | Proof Source Commit | `48507cbfcdc5` |
 | Source | `proofs/artifacts/public_smell_surrogate_scope.json` |
