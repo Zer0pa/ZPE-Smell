@@ -5,12 +5,7 @@
 ## What This Is
 ZPE-Smell is a research-in-progress smell encoding repo built around a bounded surrogate receptor-response panel. It packages a standalone smell codec, a fixed 35-episode benchmark surface, and the committed evidence needed to reproduce that bounded result.
 
-The current repo is useful now for audit and replication on that declared surface, and improving continuously. It does not make a broad smell product claim, and it does not claim admission to the broader certified subset.
-
-| Field | Value |
-|-------|-------|
-| Architecture | SMELL_STREAM |
-| Encoding | SMELL_SURROGATE_PANEL_V1 |
+The current repo is useful now for audit and replication on that declared surface. It does not make a broad smell product claim, and it does not claim admission to the broader certified subset.
 
 ## Key Metrics
 | Metric | Value | Baseline |
@@ -44,14 +39,15 @@ The current repo is useful now for audit and replication on that declared surfac
 - We do not claim this result is admitted to the broader certified subset.
 - We do not claim coverage of a full empirical receptor panel or general smell perception.
 
-## Commercial Readiness
-This release candidate is restamped to the verified source commit below.
+## Bounded Verdict
+This repo publishes the bounded public verdict carried by the committed proof artifact.
 
 | Field | Value |
 |-------|-------|
-| Verdict | STAGED |
-| Commit SHA | b8954ef7daf0 |
-| Confidence | 100% |
+| Verdict | `bounded_adopter_on_surrogate_scope` |
+| State Label | `research_in_progress` |
+| Proof Source Commit | `48507cbfcdc5` |
+| Certified Subset Admission | `NO` |
 | Source | proofs/artifacts/public_smell_surrogate_scope.json |
 
 ## Tests and Verification
@@ -59,22 +55,15 @@ This release candidate is restamped to the verified source commit below.
 |---|---|---|
 | V_01 | Full-panel roundtrip keeps all eight receptor channels intact | PASS |
 | V_02 | Image-prefixed nuisance streams still route as smell on the fixed bundle surface | PASS |
-| V_03 | Live evaluation matches the committed public proof artifact exactly | PASS |
+| V_03 | Public evaluation keeps the bounded-scope verdict and all gates in pass state | PASS |
+| V_04 | Public evaluation beats the receptor-only and geometry-only comparators on the committed surface | PASS |
+| V_05 | Live evaluation matches the committed proof and reference artifacts exactly | PASS |
 
-## Proof Anchors
-| Path | State |
+## Proof Anchors Used by CI
+| Path | CI Check |
 |---|---|
-| `proofs/artifacts/public_smell_surrogate_scope.json` | VERIFIED |
-| `validation/results/reference_public_eval.json` | VERIFIED |
-| `proofs/manifests/CURRENT_AUTHORITY_PACKET.md` | VERIFIED |
-
-## Repo Shape
-| Field | Value |
-|---|---|
-| Proof Anchors | 3 |
-| Modality Lanes | 1 |
-| Authority Source | `proofs/artifacts/public_smell_surrogate_scope.json` |
-| Package | `src/zpe_smell` |
+| `proofs/artifacts/public_smell_surrogate_scope.json` | V_05 |
+| `validation/results/reference_public_eval.json` | V_05 |
 
 ## Quick Start
 ```bash
