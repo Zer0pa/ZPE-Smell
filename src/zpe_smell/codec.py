@@ -6,7 +6,7 @@ from typing import Sequence
 
 import numpy as np
 
-from .stream import Mode, PREAMBLE_A, PREAMBLE_B, SMELL_TYPE_BIT, WORD_MASK
+from .stream import Mode, PREAMBLE_A, PREAMBLE_B, WORD_MASK
 
 
 RECEPTOR_COUNT = 8
