@@ -12,10 +12,12 @@ The current repo is useful now for audit and replication on that declared surfac
 |---|---:|---|
 | SPEARMAN_RHO | 0.9996 | reference |
 | NN_AT_1 | 94.29% | reference |
-| MIXTURE_COLLISION | 0.00% | gate |
-| ATTACK_SUCCESS | 0.00% | gate |
+| MIXTURE_COLLISION | 0.00% | gate (max 0.05) |
+| FIBER_COLLISION | 0.00% | gate (max 0.05) |
+| ADAPTATION_ALIAS | 0.00% | gate (max 0.20) |
+| ATTACK_SUCCESS | 0.00% | gate (eq 0.00) |
 
-> Source: `proofs/artifacts/public_smell_surrogate_scope.json`
+> Source: `proofs/artifacts/public_smell_surrogate_scope.json` · CI: `tests/test_public_surface.py::test_committed_artifacts_match_live_eval`
 
 ## Competitive Benchmarks
 | Approach | Spearman | NN@1 | Mixture Collision |
@@ -24,7 +26,7 @@ The current repo is useful now for audit and replication on that declared surfac
 | Receptor-only | 0.9648 | 85.71% | 14.06% |
 | Geometry-only | 0.9862 | 88.57% | 7.19% |
 
-> Source: `proofs/artifacts/public_smell_surrogate_scope.json`
+> Source: `proofs/artifacts/public_smell_surrogate_scope.json` · CI: `tests/test_public_surface.py::test_public_eval_beats_public_comparators`
 
 ## What We Prove
 - On the fixed surrogate receptor-response benchmark surface, the codec preserves retrieval structure with Spearman `0.9996`.
