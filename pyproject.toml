@@ -8,13 +8,34 @@ version = "0.1.0"
 description = "Bounded smell encoding research repo over a surrogate receptor-response panel."
 readme = "README.md"
 requires-python = ">=3.11"
+license = { text = "LicenseRef-Zer0pa-SAL-7.0" }
 authors = [
-  { name = "Zer0pa (Pty) Ltd" }
+  { name = "Zer0pa (Pty) Ltd", email = "architects@zer0pa.ai" }
+]
+keywords = [
+  "olfaction",
+  "smell codec",
+  "receptor-response",
+  "surrogate benchmark",
+  "scientific reproducibility",
+]
+classifiers = [
+  "License :: Other/Proprietary License",
+  "Intended Audience :: Science/Research",
+  "Topic :: Scientific/Engineering",
+  "Development Status :: 3 - Alpha",
 ]
 dependencies = [
   "numpy>=1.26",
   "scipy>=1.11",
 ]
+
+[project.urls]
+Homepage = "https://github.com/Zer0pa/ZPE-Smell"
+Documentation = "https://github.com/Zer0pa/ZPE-Smell/blob/main/README.md"
+Repository = "https://github.com/Zer0pa/ZPE-Smell"
+Issues = "https://github.com/Zer0pa/ZPE-Smell/issues"
+Changelog = "https://github.com/Zer0pa/ZPE-Smell/blob/main/CHANGELOG.md"
 
 [project.optional-dependencies]
 dev = [
