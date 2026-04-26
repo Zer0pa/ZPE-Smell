@@ -91,3 +91,9 @@ python3 -m pytest -q
 ## Citation
 
 Use [`CITATION.cff`](./CITATION.cff) for software citation metadata, and cite the committed proof artifact when discussing the bounded result.
+
+## Upcoming Workstreams
+
+This section captures the active lane priorities — what the next agent or contributor picks up, and what investors should expect. Cadence is continuous, not milestoned.
+
+- **Olfactory codec — commercial path definition** — Zero-Base Scientific Thinking — GPD Research and Planning Pending. The 35-episode surrogate proves retrieval-structure preservation but lacks commercial weight without empirical receptor data. Active research into commercial path (digital olfaction interfaces, fragrance-formulation AI, anosmia rehabilitation) — each path has different empirical-data requirements; selection precedes any corpus scale-up.
