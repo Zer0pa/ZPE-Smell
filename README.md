@@ -47,18 +47,13 @@ ZPE-Smell is one of seventeen public encoding lanes in the Zer0pa ZPE portfolio.
 - We do not claim coverage of a full empirical receptor panel or general smell perception.
 - This scope is intentional, not a limitation in progress — broader claims will be named explicitly when they are earned.
 
-## Bounded Verdict
+## Commercial Readiness
 
-This repo publishes the bounded public verdict carried by the committed proof artifact.
+This verdict is bounded to the declared surrogate receptor-response scope. It reflects a research-grade, bounded-adopter posture on that surface — not product readiness. Admission to the certified subset requires separate empirical receptor data; that work is in progress.
 
-| Field | Value |
-|-------|-------|
-| Verdict | `STAGED` |
-| Posture | `bounded_adopter_on_surrogate_scope` |
-| State Label | `research_in_progress` |
-| Certified Subset Admission | `NO` |
-| Proof Source Commit | `48507cbfcdc5` |
-| Source | `proofs/artifacts/public_smell_surrogate_scope.json` |
+| Verdict | Commit SHA | Confidence | Source |
+|---------|-----------|------------|--------|
+| `STAGED` | `48507cbfcdc5` | bounded_adopter_on_surrogate_scope | `proofs/artifacts/public_smell_surrogate_scope.json` |
 
 ## Tests and Verification
 
@@ -70,12 +65,14 @@ This repo publishes the bounded public verdict carried by the committed proof ar
 | V_04 | Public evaluation beats the receptor-only and geometry-only comparators on the committed surface | PASS |
 | V_05 | Live evaluation matches the committed proof and reference artifacts exactly | PASS |
 
-## Proof Anchors Used by CI
+## Proof Anchors
 
-| Path | CI Check |
-|---|---|
-| `proofs/artifacts/public_smell_surrogate_scope.json` | V_05 |
-| `validation/results/reference_public_eval.json` | V_05 |
+Anchors with State `VERIFIED` are checked by CI on every push; the CI check column identifies the specific test gate.
+
+| Path | State | CI Check |
+|---|---|---|
+| `proofs/artifacts/public_smell_surrogate_scope.json` | VERIFIED | V_05 |
+| `validation/results/reference_public_eval.json` | VERIFIED | V_05 |
 
 ## Quick Start
 
@@ -88,12 +85,20 @@ python3 -m zpe_smell.reproduce --output validation/results/latest_public_eval.js
 python3 -m pytest -q
 ```
 
-## Citation
+## Repo Shape
 
-Use [`CITATION.cff`](./CITATION.cff) for software citation metadata, and cite the committed proof artifact when discussing the bounded result.
+| Property | Value |
+|---|---|
+| Proof Anchors | 2 |
+| Modality Lanes | 1 (smell) |
+| Authority Source | `proofs/artifacts/public_smell_surrogate_scope.json` |
 
 ## Upcoming Workstreams
 
 This section captures the active lane priorities — what the next agent or contributor picks up, and what investors should expect. Cadence is continuous, not milestoned.
 
 - **Olfactory codec — commercial path definition** — Zero-Base Scientific Thinking — GPD Research and Planning Pending. The 35-episode surrogate proves retrieval-structure preservation but lacks commercial weight without empirical receptor data. Active research into commercial path (digital olfaction interfaces, fragrance-formulation AI, anosmia rehabilitation) — each path has different empirical-data requirements; selection precedes any corpus scale-up.
+
+## Citation
+
+Use [`CITATION.cff`](./CITATION.cff) for software citation metadata, and cite the committed proof artifact when discussing the bounded result.
