@@ -51,9 +51,11 @@ ZPE-Smell is one of seventeen public encoding lanes in the Zer0pa ZPE portfolio.
 
 This verdict is bounded to the declared surrogate receptor-response scope. It reflects a research-grade, bounded-adopter posture on that surface — not product readiness. Admission to the certified subset requires separate empirical receptor data; that work is in progress.
 
-| Verdict | Commit SHA | Confidence | Source |
-|---------|-----------|------------|--------|
-| `STAGED` | `48507cbfcdc5` | bounded_adopter_on_surrogate_scope | `proofs/artifacts/public_smell_surrogate_scope.json` |
+| Field | Value |
+|-------|-------|
+| Verdict | STAGED |
+| Commit SHA | 48507cbfcdc5 |
+| Source | proofs/artifacts/public_smell_surrogate_scope.json |
 
 ## Tests and Verification
 
