@@ -4,38 +4,66 @@
 
 ## What This Is
 
-ZPE-Smell is a smell encoding codec built around a fixed, 35-episode surrogate receptor-response benchmark. On that declared surface, it reaches Spearman `0.9996` — versus `0.9648` for a receptor-only baseline and `0.9862` for a geometry-only baseline — with zero mixture collision, zero fiber collision, and zero adaptation alias. That result is public, reproducible, and CI-anchored. The full proof artifact regenerates exactly from the committed code.
+Surrogate receptor-response smell codec. Fixed 35-episode benchmark reaches Spearman 0.9996 with zero mixture, fiber, and adaptation collisions.
 
 ZPE-Smell is one of seventeen public encoding lanes in the Zer0pa ZPE portfolio. It is useful now for audit and replication on the declared benchmark surface. It is improving continuously.
+
+## Codec Mechanics
+
+<p>
+  <img src=".github/assets/readme/lane-mechanics/SMELL.gif" alt="ZPE-Smell Codec Mechanics animation" width="100%">
+</p>
+
+| Field | Value |
+| ------- | ------- |
+| Architecture | SMELL_STREAM |
+| Encoding | SMELL_SURROGATE_PANEL_V1 |
+| Mechanics Asset | `.github/assets/readme/lane-mechanics/SMELL.gif` |
 
 ## Key Metrics
 
 | Metric | Value | Baseline |
-|---|---:|---|
+| -------- | ------- | ---------- |
 | SPEARMAN_RHO | 0.9996 | reference |
 | NN_AT_1 | 94.29% | reference |
 | MIXTURE_COLLISION | 0.00% | max 0.05 |
 | FIBER_COLLISION | 0.00% | max 0.05 |
-| ADAPTATION_ALIAS | 0.00% | max 0.20 |
-| ATTACK_SUCCESS | 0.00% | eq 0.00 |
 
 > Source: `proofs/artifacts/public_smell_surrogate_scope.json` · CI: `tests/test_public_surface.py::test_committed_artifacts_match_live_eval`
 
-## Competitive Benchmarks
+## Repo Identity
 
-| Approach | Spearman | NN@1 | Mixture Collision |
-|---|---:|---:|---:|
-| **ZPE-Smell** | **0.9996** | **94.29%** | **0.00%** |
-| Receptor-only | 0.9648 | 85.71% | 14.06% |
-| Geometry-only | 0.9862 | 88.57% | 7.19% |
+| Field | Value |
+| ------- | ------- |
+| Identifier | ZPE-Smell |
+| Repository | https://github.com/Zer0pa/ZPE-Smell |
+| Section | encoding |
+| Visibility | PUBLIC |
+| Architecture | SMELL_STREAM |
+| Encoding | SMELL_SURROGATE_PANEL_V1 |
+| Commit SHA | 48507cbfcdc5 |
+| License | SAL-7.0 |
+| Authority Source | proofs/artifacts/public_smell_surrogate_scope.json |
 
-> Source: `proofs/artifacts/public_smell_surrogate_scope.json` · CI: `tests/test_public_surface.py::test_public_eval_beats_public_comparators`
+## Readiness
+
+| Field | Value |
+| ------- | ------- |
+| Verdict | STAGED |
+| Checks | 5/5 |
+| Anchors | 2 display anchors |
+| Commit | 48507cbfcdc5 |
+| Authority | proofs/artifacts/public_smell_surrogate_scope.json |
+
+### Honest Blocker
+
+We do not claim a digital smell product.; We do not claim anything beyond the surrogate receptor-response scope shipped here.; We do not claim this result is admitted to the broader certified subset.
 
 ## What We Prove
 
-- On the fixed surrogate receptor-response benchmark surface, the codec preserves retrieval structure with Spearman `0.9996`.
-- On that same surface, nearest-neighbor recall at 1 is `94.29%`.
-- On the declared nuisance family cases, mixture collision, fiber collision, adaptation alias, and attack success all stay at `0.00%`.
+- On the fixed surrogate receptor-response benchmark surface, the codec preserves retrieval structure with Spearman 0.9996.
+- On that same surface, nearest-neighbor recall at 1 is 94.29%.
+- On the declared nuisance family cases, mixture collision, fiber collision, adaptation alias, and attack success all stay at 0.00%.
 - Image-prefixed nuisance streams do not break smell routing on the committed benchmark surface.
 - The full public artifact can be regenerated from the code and matched exactly against the committed proof file.
 
@@ -47,20 +75,10 @@ ZPE-Smell is one of seventeen public encoding lanes in the Zer0pa ZPE portfolio.
 - We do not claim coverage of a full empirical receptor panel or general smell perception.
 - This scope is intentional, not a limitation in progress — broader claims will be named explicitly when they are earned.
 
-## Commercial Readiness
-
-This verdict is bounded to the declared surrogate receptor-response scope. It reflects a research-grade, bounded-adopter posture on that surface — not product readiness. Admission to the certified subset requires separate empirical receptor data; that work is in progress.
-
-| Field | Value |
-|-------|-------|
-| Verdict | STAGED |
-| Commit SHA | 48507cbfcdc5 |
-| Source | proofs/artifacts/public_smell_surrogate_scope.json |
-
-## Tests and Verification
+## Verification Status
 
 | Code | Check | Verdict |
-|---|---|---|
+| ------ | ------- | --------- |
 | V_01 | Full-panel roundtrip keeps all eight receptor channels intact | PASS |
 | V_02 | Image-prefixed nuisance streams still route as smell on the fixed bundle surface | PASS |
 | V_03 | Public evaluation keeps the bounded-scope verdict and all gates in pass state | PASS |
@@ -69,12 +87,40 @@ This verdict is bounded to the declared surrogate receptor-response scope. It re
 
 ## Proof Anchors
 
-Anchors with State `VERIFIED` are checked by CI on every push; the CI check column identifies the specific test gate.
+| Path | State |
+| ------ | ------- |
+| `proofs/artifacts/public_smell_surrogate_scope.json` | VERIFIED |
+| `validation/results/reference_public_eval.json` | VERIFIED |
 
-| Path | State | CI Check |
-|---|---|---|
-| `proofs/artifacts/public_smell_surrogate_scope.json` | VERIFIED | V_05 |
-| `validation/results/reference_public_eval.json` | VERIFIED | V_05 |
+## Repo Shape
+
+| Field | Value |
+| ------- | ------- |
+| Proof Anchors | 2 display anchors |
+| Modality Lanes | 1 |
+| Architecture | SMELL_STREAM |
+| Encoding | SMELL_SURROGATE_PANEL_V1 |
+| Verification | 5/5 checks |
+| Authority Source | proofs/artifacts/public_smell_surrogate_scope.json |
+
+## Extended Metrics
+
+Rows retained from the previous expanded `## Key Metrics` table. The public product page uses the first four rows only.
+
+| Metric | Value | Baseline |
+|---|---:|---|
+| ADAPTATION_ALIAS | 0.00% | max 0.20 |
+| ATTACK_SUCCESS | 0.00% | eq 0.00 |
+
+## Competitive Benchmarks
+
+| Approach | Spearman | NN@1 | Mixture Collision |
+|---|---:|---:|---:|
+| **ZPE-Smell** | **0.9996** | **94.29%** | **0.00%** |
+| Receptor-only | 0.9648 | 85.71% | 14.06% |
+| Geometry-only | 0.9862 | 88.57% | 7.19% |
+
+> Source: `proofs/artifacts/public_smell_surrogate_scope.json` · CI: `tests/test_public_surface.py::test_public_eval_beats_public_comparators`
 
 ## Quick Start
 
@@ -86,14 +132,6 @@ python3 -m pip install -e '.[dev]'
 python3 -m zpe_smell.reproduce --output validation/results/latest_public_eval.json
 python3 -m pytest -q
 ```
-
-## Repo Shape
-
-| Property | Value |
-|---|---|
-| Proof Anchors | 2 |
-| Modality Lanes | 1 (smell) |
-| Authority Source | `proofs/artifacts/public_smell_surrogate_scope.json` |
 
 ## Upcoming Workstreams
 
