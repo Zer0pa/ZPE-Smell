@@ -1,6 +1,6 @@
 # ZPE-Smell
 
-[![License: SAL v7.0](https://img.shields.io/badge/license-SAL%20v7.0-orange)](https://github.com/Zer0pa/ZPE-Smell/blob/main/LICENSE)
+[![License: SAL v7.1](https://img.shields.io/badge/license-SAL%20v7.0-orange)](https://github.com/Zer0pa/ZPE-Smell/blob/main/LICENSE)
 
 ## What This Is
 
