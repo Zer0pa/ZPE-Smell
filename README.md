@@ -65,7 +65,7 @@ python3 -m pytest -q
 <table width="100%">
 <tr>
 <td width="50%" valign="top">
-<div><b>03 · VALUE</b></div>
+<div><b>03 · VALUE OF MARKET</b></div>
       <div>$14.5<span>B</span></div>
       <div>Cheminformatics by 2030 &mdash; the surrogate response layer underneath retrieval and similarity search.</div>
 </td>
