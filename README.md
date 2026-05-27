@@ -2,6 +2,39 @@
 
 ## Install / Developer Commands
 
+<!-- INSTALL-DX:START -->
+#### Package Install
+
+Installable package: `python3.11 -m pip install zpe-smell`.
+Current release: `0.1.0` on [PyPI](https://pypi.org/project/zpe-smell/).
+Source: [Zer0pa/ZPE-Smell](https://github.com/Zer0pa/ZPE-Smell/).
+
+```bash
+python3.11 -m pip install zpe-smell
+```
+
+Import smoke:
+
+```bash
+python3.11 - <<'PY'
+import importlib.metadata as md
+import zpe_smell
+
+print("zpe-smell", md.version("zpe-smell"))
+PY
+```
+
+
+CLI smoke:
+
+```bash
+zpe-smell-reproduce --help
+```
+
+Install success only proves package acquisition/import. Product scope, stale PyPI state, platform limits, and blockers remain in the front-door sections below.
+- PyPI copy is stale or pending refresh; install success is not product readiness.
+<!-- INSTALL-DX:END -->
+
 #### Quick Start
 
 ```bash
