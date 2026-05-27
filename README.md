@@ -1,227 +1,247 @@
 # ZPE-Smell
 
-> Product-page mirror for `/encoding/ZPE-Smell/`.
-> Live public repo: [Zer0pa/ZPE-Smell](https://github.com/Zer0pa/ZPE-Smell).
-> GitHub Markdown cannot reproduce the website typography, CSS, JavaScript, scroll behavior, or live bento layout; this README translates the product page into GitHub-safe Markdown evidence blocks.
-
 ## 0. Install / Developer Commands
 
-The product page is the positioning authority. This section is the only retained developer-surface material from the previous root README.
+#### Quick Start
 
 ```bash
+python3 -m venv .venv
+. .venv/bin/activate
 python3 -m pip install --upgrade pip
 python3 -m pip install -e '.[dev]'
+python3 -m zpe_smell.reproduce --output validation/results/latest_public_eval.json
 python3 -m pytest -q
 ```
 
-## Product Page Mirror
-
-**Product-page title:** ZPE-Smell · Surrogate receptor-response barcode · Zer0pa
-
-**Product-page description:** ZPE-Smell · fixed 35-episode surrogate receptor-response barcode benchmark · Spearman 0.9996, NN@1 94.29%, 0% mixture collision · no empirical olfaction claim · PyPI zpe-smell 0.1.0 stale pending release
-
-### Hero Translation
-
-> 00 · ZPE-SMELL · SURROGATE RECEPTOR PANELRESEARCH-READY · SURROGATE SCOPE A surrogate nose for AI. Surrogate receptor-response codec · ZPE-Smell · PyPI zpe-smell v0.1.0 · github.com/Zer0pa/ZPE-Smell ZPE-Smell does not smell. It takes a molecule and produces a deterministic surrogate receptor-response packet — a fixed barcode you can store, retrieve, and compare. On a 35-episode benchmark the packet survives encode and decode at Spearman 0.9996, retrieves the right neighbor at NN@1 94.29%, and never confuses a mixture, fiber, or adaptation category with another. It is a tool for cheminformatics retrieval and benchmark calibration. It is not empirical olfaction.
-
-## Positioning
-
-| Field | Value |
-| --- | --- |
-| Section | encoding |
-| Product route | /encoding/ZPE-Smell/ |
-| Live public repository | https://github.com/Zer0pa/ZPE-Smell |
-| Repo identity used here | ZPE-Smell |
-| Website display identity | ZPE-Smell |
-| Verdict | STAGED |
-| Posture | always_in_beta |
-| Headline metric | SPEARMAN_RHO: 0.9996. ZPE-Smell canonical authority surface; useful now, improving continuously. |
-| Honest blocker | We do not claim a digital smell product.; We do not claim anything beyond the surrogate receptor-response scope shipped here.; We do not claim this result is admitted to the broader certified subset. |
-| Mechanics asset from product page | SMELL.gif |
-
-## Key Metrics
-
-| Metric | Value | Baseline |
-| --- | --- | --- |
-| SPEARMAN_RHO | 0.9996 | reference |
-| NN_AT_1 | 94.29% | reference |
-| MIXTURE_COLLISION | 0.00% | max 0.05 |
-| FIBER_COLLISION | 0.00% | max 0.05 |
-
-## Proof Anchors
-
-| Path | State |
-| --- | --- |
-| proofs/artifacts/public_smell_surrogate_scope.json | VERIFIED |
-| validation/results/reference_public_eval.json | VERIFIED |
-
-## What We Prove
-
-- On the fixed surrogate receptor-response benchmark surface, the codec preserves retrieval structure with Spearman 0.9996.
-- On that same surface, nearest-neighbor recall at 1 is 94.29%.
-- On the declared nuisance family cases, mixture collision, fiber collision, adaptation alias, and attack success all stay at 0.00%.
-- Image-prefixed nuisance streams do not break smell routing on the committed benchmark surface.
-- The full public artifact can be regenerated from the code and matched exactly against the committed proof file.
-
-## What We Do Not Claim
-
-- We do not claim a digital smell product.
-- We do not claim anything beyond the surrogate receptor-response scope shipped here.
-- We do not claim this result is admitted to the broader certified subset.
-- We do not claim coverage of a full empirical receptor panel or general smell perception.
-- This scope is intentional, not a limitation in progress — broader claims will be named explicitly when they are earned.
-
-## Blockers / Failures
-
-> We do not claim a digital smell product.; We do not claim anything beyond the surrogate receptor-response scope shipped here.; We do not claim this result is admitted to the broader certified subset.
-
-## Verification Surface
-
-| Code | Check | Verdict |
-| --- | --- | --- |
-| V_01 | Full-panel roundtrip keeps all eight receptor channels intact | PASS |
-| V_02 | Image-prefixed nuisance streams still route as smell on the fixed bundle surface | PASS |
-| V_03 | Public evaluation keeps the bounded-scope verdict and all gates in pass state | PASS |
-| V_04 | Public evaluation beats the receptor-only and geometry-only comparators on the committed surface | PASS |
-| V_05 | Live evaluation matches the committed proof and reference artifacts exactly | PASS |
-
-## License
-
-| Field | Value |
-| --- | --- |
-| License | SAL-7.0 |
-| Authority source | proofs/artifacts/public_smell_surrogate_scope.json |
-
-## Upcoming Workstreams
-
-| Category | Summary |
-| --- | --- |
-| Zero-Base Scientific Thinking — GPD Research and Planning Pending | Olfactory codec — commercial path definition. The 35-episode surrogate proves retrieval-structure preservation but lacks commercial weight without empirical receptor data; path selection (digital olfaction, fragrance AI, anosmia rehab) precedes corpus scale-up. |
-| Operations / External Dependency | Maintain CI gates and license-resolver synchronization with Zer0pa/ZPE-License-Commercial. |
-
-## Related Repos
-
-No related repos are declared on the product page frontmatter.
-
-<details>
-<summary>Full Visible Product-Page Bento Translation</summary>
-
-This section preserves the product page cells as Markdown text blocks. It intentionally omits shared site navigation, footer chrome, CSS, and scripts.
-
-### Bento Cell 1
-
-> 00 · ZPE-SMELL · SURROGATE RECEPTOR PANELRESEARCH-READY · SURROGATE SCOPE A surrogate nose for AI. Surrogate receptor-response codec · ZPE-Smell · PyPI zpe-smell v0.1.0 · github.com/Zer0pa/ZPE-Smell ZPE-Smell does not smell. It takes a molecule and produces a deterministic surrogate receptor-response packet — a fixed barcode you can store, retrieve, and compare. On a 35-episode benchmark the packet survives encode and decode at Spearman 0.9996, retrieves the right neighbor at NN@1 94.29%, and never confuses a mixture, fiber, or adaptation category with another. It is a tool for cheminformatics retrieval and benchmark calibration. It is not empirical olfaction.
-
-### Bento Cell 2
-
-> 01 · THE GAPNO SHARED BARCODE Olfactory computation has no shared response barcode. Each pipeline encodes a molecule differently, so the same query returns different shortlists.
-
-### Bento Cell 3
-
-> 02 · MARKETSADJACENT FORECASTS Cheminformatics'30 · $14.5B Computational chemistry'34 · $4.4B Molecular fingerprint tooling'30 · est. $2.1B Drug discovery informatics'30 · $8.9B Cheminformatics'33 · $16.7B ZPE-Smell sits in the surrogate response layer of cheminformatics — not in empirical olfaction commerce.
-
-### Bento Cell 4
-
-> 03 · VALUE $14.5B Cheminformatics by 2030 — the surrogate response layer underneath retrieval and similarity search.
-
-### Bento Cell 5
-
-> 04 · INSIGHT One molecule, one neighborhood — and nothing aliases.
-
-### Bento Cell 6
-
-> 05.1 · CURRENT TECHNO SHARED CODEC Olfaction datasets each carry receptor, geometry, and nuisance information differently. Two pipelines querying the same molecule rarely return the same shortlist, and there is no shared way to ask whether they should.
-
-### Bento Cell 7
-
-> 05.2 · OUR TECHSURROGATE BARCODE ZPE-Smell builds a single deterministic response packet for any candidate molecule, then tests whether the response order and nuisance boundaries survive round-trip. On a fixed 35-episode benchmark the packet holds Spearman 0.9996, retrieves the right neighbor at 94.29%, and refuses to alias mixtures, fibers, or adaptation responses into each other.
-
-### Bento Cell 8
-
-> 05.3 · BENCHMARKS35-EPISODE SURROGATE PANEL Spearman0.9996rank fidelity NN@194.29% retrieval Collision0.00% mixtures Episodes35benchmark scope full0.9996 geometry0.9862 receptor0.9648 Scope: 35-episode surrogate panel · computational-olfaction reference, not empirical perception.
-
-### Bento Cell 9
-
-> 06 · MEASUREMENT35-EPISODE SURROGATE Every metric traces to a 35-episode surrogate benchmark. Collisions: zero.
-
-### Bento Cell 10
-
-> 06.1 · COMPARATIVE PERFORMANCE · SPEARMAN RANK FIDELITY ZPE-Smell full0.9996 Receptor-only0.9648 Geometry-only0.9862 Empirical receptor datanot public 35-episode surrogate benchmark · the full barcode beats the receptor-only and geometry-only versions · no empirical receptor data appears, because the codec does not claim it.
-
-### Bento Cell 11
-
-> 07 · KEY METRICSZPE-SMELL SURROGATE
-
-### Bento Cell 12
-
-> 07.1 · SURROGATE SPEARMAN 0.9996 Rank fidelity · full surrogate vector
-
-### Bento Cell 13
-
-> 07.2 · NN@1 RETRIEVAL 94.29% Right neighbor first · 35-episode surrogate
-
-### Bento Cell 14
-
-> 07.3 · MIXTURE COLLISION 0.00% Mixtures stay distinct · 0/35 collisions
-
-### Bento Cell 15
-
-> 07.4 · ABLATION FLOOR 0.96/ 0.99 Receptor / geometry alone · 0.96 / 0.99
-
-### Bento Cell 16
-
-> 07.5 · BENCHMARK SCOPE 35episodes Fixed surrogate panel · non-empirical scope
-
-### Bento Cell 17
-
-> 08 · DISTINCTIONZERO COLLISION Across 35 surrogate episodes, response packets stay distinct. Collision = 0.
-
-### Bento Cell 18
-
-> 08.1 · WHAT THE PACKET PROVESCOMMITTED ARTIFACTS Committed proof artifacts replay the 35-episode surrogate benchmark to Spearman 0.9996, NN@1 94.29%, and 0.00% collision across mixture, fiber, adaptation, and transport-attack families. Each surrogate episode resolves to one and only one response barcode. Ablations land where they should: receptor-only at 0.9648, geometry-only at 0.9862, full vector at 0.9996. The replay is what we own. The empirical olfactory claim is what we explicitly do not.
-
-### Bento Cell 19
-
-> 08.2 · HONEST BLOCKER Honest Blocker · Surrogate receptor-response panel only — no empirical olfactory perception, no biological receptor validation, no applied digital-smell product. Public PyPI zpe-smell 0.1.0 is stale pending release. Proof and reference artifacts still cite source_commit = 48507cbfcdc5; source, license, and provenance drift remain open.
-
-### Bento Cell 20
-
-> 09 EVERY ODORANT GETS A RECEIPT.
-
-### Bento Cell 21
-
-> 09.1 · THE AMBITION The ambition is a custody layer for computational smell. When every candidate molecule carries a reproducible response barcode — with its scope, its non-claims, and its nuisance boundaries spelled out — cheminformatics teams, QA labs, and standards bodies can argue over thresholds instead of definitions.
-
-### Bento Cell 22
-
-> 09.2 · WHAT WORKS NOW Working today: a surrogate response packet that distinguishes 35 fixed episodes without aliasing any nuisance family.
-
-### Bento Cell 23
-
-> 09.3 · WHAT'S STILL OPEN Still open: empirical receptor data, broader certified-subset admission, release freshness, and source-provenance drift in proof artifacts.
-
-### Bento Cell 24
-
-> 09.4 · RETRIEVAL · NEAR-TERM (12–24 MO) Fragrance archives query by response, not guess A perfumer searching a corporate aroma archive for things that smell adjacent to a new accord gets back the same shortlist on Monday as on Friday. The match list stops shifting with whichever fingerprint vendor the chemoinformatics team last licensed.
-
-### Bento Cell 25
-
-> 09.5 · QA · NEAR-TERM (12–24 MO) Food and beverage QA gets a portable yardstick A quality team checking that a new batch of vanillin or hop oil sits inside the expected response neighborhood can compare today's batch to a five-year-old reference and see the same distance number. Off-batches stop being judged by whichever panelist showed up.
-
-### Bento Cell 26
-
-> 09.6 · STANDARDS · MID-TERM (24–48 MO) Standards bodies acquire a calibration tool An ISO or ASTM working group writing computational olfaction evaluation language has a public, deterministic packet to point at when it wants to define what rank fidelity and nuisance collision mean. Working groups stop arguing definitions and start arguing thresholds.
-
-### Bento Cell 27
-
-> 09.7 · DISCOVERY · MID-TERM (24–48 MO) Discovery pipelines feed cleaner candidates upstream A drug discovery or flavor-house hit-finding pipeline that screens millions of molecules sends a surrogate response packet alongside each candidate. Wet-lab chemists triaging the top thousand can sort by response-space neighborhood before committing bench time, not after.
-
-### Bento Cell 28
-
-> 09.8 · SENSES · PARADIGM (48 MO+) Computational senses acquire a custody standard Every codec that claims to represent a sense — smell, taste, touch, sight — is held to the same template: publish the surrogate scope, publish the nuisance boundaries, publish what it does not claim. The honest non-claim becomes how a sensory codec earns the right to be cited.
-
-</details>
-
----
-
-Source mapping: product route `/encoding/ZPE-Smell/` -> live public repo `Zer0pa/ZPE-Smell`. README generated from product-page authority plus retained install/dev commands only.
+<table>
+<tr>
+<td colspan="7" valign="top">
+<sub>01 · Bento cell · b-cell b-hero cell-7 row-2</sub>
+<div><span><b>00 · ZPE-SMELL</b> · SURROGATE RECEPTOR PANEL</span><span>RESEARCH-READY · SURROGATE SCOPE</span></div>
+      <h1>A surrogate nose <span>for AI.</span></h1>
+      <p>Surrogate receptor-response codec · ZPE-Smell · PyPI <em>zpe-smell</em> v0.1.0 · github.com/Zer0pa/ZPE-Smell</p>
+      <p>ZPE-Smell does not smell. It takes a molecule and produces a deterministic surrogate receptor-response packet &mdash; a fixed barcode you can store, retrieve, and compare. On a 35-episode benchmark the packet survives encode and decode at <strong>Spearman 0.9996</strong>, retrieves the right neighbor at <strong>NN@1 94.29%</strong>, and never confuses a mixture, fiber, or adaptation category with another. It is a tool for cheminformatics retrieval and benchmark calibration. It is not empirical olfaction.</p>
+</td>
+<td colspan="5" valign="top">
+<sub>02 · ZPE Smell animated mechanics diagram · b-cell b-codec-mechanics cell-5 row-2</sub>
+<figure>
+        <div><img src="docs/assets/product-page-mechanics.gif" alt="ZPE-Smell approved scientific square mechanics diagram showing surrogate receptor-response codec mechanics."></div>
+        <figcaption><b>Scope:</b> surrogate receptor-response barcode only. No empirical olfaction, biological validation, or digital-smell product claim.</figcaption>
+      </figure>
+</td>
+</tr>
+<tr>
+<td colspan="4" valign="top">
+<sub>03 · Bento cell · b-cell b-title cell-4</sub>
+<div><b>01 · THE GAP</b><span>NO SHARED BARCODE</span></div>
+      <h2>Olfactory computation has no shared response barcode. Each pipeline encodes a molecule differently, so the same query returns different shortlists.</h2>
+</td>
+<td colspan="5" valign="top">
+<sub>04 · Bento cell · b-cell b-fig cell-5</sub>
+<div><b>02 · MARKETS</b><span>ADJACENT FORECASTS</span></div>
+      <div>
+        <div>
+          <div><span>Cheminformatics</span><span></span><span>'30 · $14.5B</span></div>
+          <div><span>Computational chemistry</span><span></span><span>'34 · $4.4B</span></div>
+          <div><span>Molecular fingerprint tooling</span><span></span><span>'30 · est. $2.1B</span></div>
+          <div><span>Drug discovery informatics</span><span></span><span>'30 · $8.9B</span></div>
+          <div><span>Cheminformatics</span><span></span><span>'33 · $16.7B</span></div>
+        </div>
+      </div>
+      <div>ZPE-Smell sits in the surrogate response layer of cheminformatics &mdash; not in empirical olfaction commerce.</div>
+</td>
+<td colspan="3" valign="top">
+<sub>05 · Bento cell · b-cell b-stat cell-3</sub>
+<div><b>03 · VALUE</b></div>
+      <div>$14.5<span>B</span></div>
+      <div>Cheminformatics by 2030 &mdash; the surrogate response layer underneath retrieval and similarity search.</div>
+</td>
+</tr>
+<tr>
+<td colspan="3" valign="top">
+<sub>06 · Bento cell · b-cell b-title is-centered cell-3</sub>
+<div><b>04 · INSIGHT</b></div>
+      <h2>One molecule, one neighborhood &mdash; and nothing <span>aliases.</span></h2>
+</td>
+</tr>
+<tr>
+<td colspan="12" valign="top">
+<sub>07 · Bento cell · b-cell b-prose is-technical b-tech-panel</sub>
+<div><b>05.1 · CURRENT TECH</b><span>NO SHARED CODEC</span></div>
+        <p>Olfaction datasets each carry receptor, geometry, and nuisance information differently. Two pipelines querying the same molecule rarely return the same shortlist, and there is no shared way to ask whether they should.</p>
+</td>
+</tr>
+<tr>
+<td colspan="12" valign="top">
+<sub>08 · Bento cell · b-cell b-prose is-technical b-tech-panel</sub>
+<div><b>05.2 · OUR TECH</b><span>SURROGATE BARCODE</span></div>
+        <p>ZPE-Smell builds a single deterministic response packet for any candidate molecule, then tests whether the response order and nuisance boundaries survive round-trip. On a fixed 35-episode benchmark the packet holds <strong>Spearman 0.9996</strong>, retrieves the right neighbor at <strong>94.29%</strong>, and refuses to alias mixtures, fibers, or adaptation responses into each other.</p>
+</td>
+</tr>
+<tr>
+<td colspan="3" valign="top">
+<sub>09 · Bento cell · b-cell b-fig b-benchmark-mini cell-3</sub>
+<div><b>05.3 · BENCHMARKS</b><span>35-EPISODE SURROGATE PANEL</span></div>
+      <div>
+        <div>
+          <div><span>Spearman</span><b>0.9996</b><small>rank fidelity</small></div>
+          <div><span>NN@1</span><b>94.29</b><small>% retrieval</small></div>
+          <div><span>Collision</span><b>0.00</b><small>% mixtures</small></div>
+          <div><span>Episodes</span><b>35</b><small>benchmark scope</small></div>
+        </div>
+        <div>
+          <div><span>full</span><span></span><span>0.9996</span></div>
+          <div><span>geometry</span><span></span><span>0.9862</span></div>
+          <div><span>receptor</span><span></span><span>0.9648</span></div>
+        </div>
+      </div>
+      <div><b>Scope:</b> 35-episode surrogate panel &middot; computational-olfaction reference, not empirical perception.</div>
+</td>
+<td colspan="4" valign="top">
+<sub>10 · Bento cell · b-cell b-title cell-4</sub>
+<div><b>06 · MEASUREMENT</b><span>35-EPISODE SURROGATE</span></div>
+      <h2>Every metric traces to a 35-episode surrogate benchmark. <span>Collisions: zero.</span></h2>
+</td>
+</tr>
+<tr>
+<td colspan="8" valign="top">
+<sub>11 · Bento cell · b-cell b-fig cell-8</sub>
+<div><b>06.1 · COMPARATIVE PERFORMANCE · SPEARMAN RANK FIDELITY</b></div>
+      <div>
+        <div>
+          <div><span>ZPE-Smell full</span><span></span><span>0.9996</span></div>
+          <div><span>Receptor-only</span><span></span><span>0.9648</span></div>
+          <div><span>Geometry-only</span><span></span><span>0.9862</span></div>
+          <div><span>Empirical receptor data</span><span></span><span>not public</span></div>
+        </div>
+      </div>
+      <div><strong>35-episode surrogate benchmark</strong> &middot; the full barcode beats the receptor-only and geometry-only versions &middot; no empirical receptor data appears, because the codec does not claim it.</div>
+</td>
+</tr>
+<tr>
+<td colspan="12" valign="top">
+<sub>12 · Bento cell · b-cell b-row-label cell-12</sub>
+<div><b>07 · KEY METRICS</b><span>ZPE-SMELL SURROGATE</span></div>
+</td>
+</tr>
+<tr>
+<td colspan="12" valign="top">
+<sub>13 · Bento cell · b-cell b-stat</sub>
+<div><b>07.1 · SURROGATE SPEARMAN</b></div>
+      <div>0.9996</div>
+      <div>Rank fidelity &middot; <b>full surrogate vector</b></div>
+</td>
+</tr>
+<tr>
+<td colspan="12" valign="top">
+<sub>14 · Bento cell · b-cell b-stat</sub>
+<div><b>07.2 · NN@1 RETRIEVAL</b></div>
+      <div>94.29<span>%</span></div>
+      <div>Right neighbor first &middot; <b>35-episode surrogate</b></div>
+</td>
+</tr>
+<tr>
+<td colspan="12" valign="top">
+<sub>15 · Bento cell · b-cell b-stat</sub>
+<div><b>07.3 · MIXTURE COLLISION</b></div>
+      <div>0.00<span>%</span></div>
+      <div>Mixtures stay distinct &middot; <b>0/35 collisions</b></div>
+</td>
+</tr>
+<tr>
+<td colspan="12" valign="top">
+<sub>16 · Bento cell · b-cell b-stat</sub>
+<div><b>07.4 · ABLATION FLOOR</b></div>
+      <div>0.96<span>/ 0.99</span></div>
+      <div>Receptor / geometry alone &middot; <b>0.96 / 0.99</b></div>
+</td>
+</tr>
+<tr>
+<td colspan="12" valign="top">
+<sub>17 · Bento cell · b-cell b-stat</sub>
+<div><b>07.5 · BENCHMARK SCOPE</b></div>
+      <div>35<span>episodes</span></div>
+      <div>Fixed surrogate panel &middot; <b>non-empirical scope</b></div>
+</td>
+</tr>
+<tr>
+<td colspan="4" valign="top">
+<sub>18 · Bento cell · b-cell b-title is-centered cell-4</sub>
+<div><b>08 · DISTINCTION</b><span>ZERO COLLISION</span></div>
+      <h2>Across 35 surrogate episodes, response packets stay distinct. <span>Collision = 0.</span></h2>
+</td>
+<td colspan="5" valign="top">
+<sub>19 · Bento cell · b-cell b-prose is-technical cell-5</sub>
+<div><b>08.1 · WHAT THE PACKET PROVES</b><span>COMMITTED ARTIFACTS</span></div>
+      <p>Committed proof artifacts replay the <strong>35-episode surrogate benchmark</strong> to <strong>Spearman 0.9996</strong>, <strong>NN@1 94.29%</strong>, and <strong>0.00%</strong> collision across mixture, fiber, adaptation, and transport-attack families. Each surrogate episode resolves to one and only one response barcode.</p>
+      <p>Ablations land where they should: receptor-only at 0.9648, geometry-only at 0.9862, full vector at 0.9996. The replay is what we own. The empirical olfactory claim is what we explicitly do not.</p>
+</td>
+<td colspan="3" valign="top">
+<sub>20 · Bento cell · b-cell b-blocker cell-3</sub>
+<div><b>08.2 · HONEST BLOCKER</b></div>
+      <span>Honest Blocker &middot;</span>
+      <p><strong>Surrogate receptor-response panel only</strong> &mdash; no empirical olfactory perception, no biological receptor validation, no applied digital-smell product. Public PyPI <strong>zpe-smell 0.1.0</strong> is stale pending release. Proof and reference artifacts still cite <em>source_commit = 48507cbfcdc5</em>; source, license, and provenance drift remain open.</p>
+</td>
+</tr>
+<tr>
+<td colspan="4" valign="top">
+<sub>21 · Bento cell · b-cell b-title cell-4</sub>
+<div><b>09</b></div>
+      <h2>EVERY ODORANT GETS A <span>RECEIPT.</span></h2>
+</td>
+<td colspan="4" valign="top">
+<sub>22 · Bento cell · b-cell b-prose cell-4</sub>
+<div><b>09.1 · THE AMBITION</b></div>
+      <p>The ambition is a custody layer for computational smell. When every candidate molecule carries a reproducible response barcode &mdash; with its scope, its non-claims, and its nuisance boundaries spelled out &mdash; cheminformatics teams, QA labs, and standards bodies can argue over thresholds instead of definitions.</p>
+</td>
+</tr>
+<tr>
+<td colspan="12" valign="top">
+<sub>23 · Bento cell · b-cell b-title b-statement-card</sub>
+<div><b>09.2 · WHAT WORKS NOW</b></div>
+        <h2>Working today: a surrogate response packet that distinguishes 35 fixed episodes without aliasing any nuisance family.</h2>
+</td>
+</tr>
+<tr>
+<td colspan="12" valign="top">
+<sub>24 · Bento cell · b-cell b-title b-statement-card</sub>
+<div><b>09.3 · WHAT'S STILL OPEN</b></div>
+        <h2>Still open: empirical receptor data, broader certified-subset admission, release freshness, and source-provenance drift in proof artifacts.</h2>
+</td>
+</tr>
+<tr>
+<td colspan="12" valign="top">
+<sub>25 · Bento cell · b-cell b-unlock</sub>
+<div><b>09.4</b> &middot; RETRIEVAL · NEAR-TERM (12–24 MO)</div>
+      <div>Fragrance archives query by response, not guess</div><div>A perfumer searching a corporate aroma archive for things that smell adjacent to a new accord gets back the same shortlist on Monday as on Friday. The match list stops shifting with whichever fingerprint vendor the chemoinformatics team last licensed.</div>
+</td>
+</tr>
+<tr>
+<td colspan="12" valign="top">
+<sub>26 · Bento cell · b-cell b-unlock</sub>
+<div><b>09.5</b> &middot; QA · NEAR-TERM (12–24 MO)</div>
+      <div>Food and beverage QA gets a portable yardstick</div><div>A quality team checking that a new batch of vanillin or hop oil sits inside the expected response neighborhood can compare today's batch to a five-year-old reference and see the same distance number. Off-batches stop being judged by whichever panelist showed up.</div>
+</td>
+</tr>
+<tr>
+<td colspan="12" valign="top">
+<sub>27 · Bento cell · b-cell b-unlock</sub>
+<div><b>09.6</b> &middot; STANDARDS · MID-TERM (24–48 MO)</div>
+      <div>Standards bodies acquire a calibration tool</div><div>An ISO or ASTM working group writing computational olfaction evaluation language has a public, deterministic packet to point at when it wants to define what rank fidelity and nuisance collision mean. Working groups stop arguing definitions and start arguing thresholds.</div>
+</td>
+</tr>
+<tr>
+<td colspan="12" valign="top">
+<sub>28 · Bento cell · b-cell b-unlock</sub>
+<div><b>09.7</b> &middot; DISCOVERY · MID-TERM (24–48 MO)</div>
+      <div>Discovery pipelines feed cleaner candidates upstream</div><div>A drug discovery or flavor-house hit-finding pipeline that screens millions of molecules sends a surrogate response packet alongside each candidate. Wet-lab chemists triaging the top thousand can sort by response-space neighborhood before committing bench time, not after.</div>
+</td>
+</tr>
+<tr>
+<td colspan="12" valign="top">
+<sub>29 · Bento cell · b-cell b-unlock</sub>
+<div><b>09.8</b> &middot; SENSES · PARADIGM (48 MO+)</div>
+      <div>Computational senses acquire a custody standard</div><div>Every codec that claims to represent a sense &mdash; smell, taste, touch, sight &mdash; is held to the same template: publish the surrogate scope, publish the nuisance boundaries, publish what it does not claim. The honest non-claim becomes how a sensory codec earns the right to be cited.</div>
+</td>
+</tr>
+</table>
