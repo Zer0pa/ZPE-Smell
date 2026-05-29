@@ -1,9 +1,6 @@
 # ZPE-Smell
 
-## Install / Developer Commands
-
-<!-- INSTALL-DX:START -->
-#### Package Install
+## Package Install
 
 Installable package: `python3.11 -m pip install zpe-smell`.
 Current release: `0.1.0` on [PyPI](https://pypi.org/project/zpe-smell/).
@@ -13,38 +10,9 @@ Source: [Zer0pa/ZPE-Smell](https://github.com/Zer0pa/ZPE-Smell/).
 python3.11 -m pip install zpe-smell
 ```
 
-Import smoke:
+For full install, smoke, source, and developer commands, [click here](#install-developer-commands-detailed).
 
-```bash
-python3.11 - <<'PY'
-import importlib.metadata as md
-import zpe_smell
-
-print("zpe-smell", md.version("zpe-smell"))
-PY
-```
-
-
-CLI smoke:
-
-```bash
-zpe-smell-reproduce --help
-```
-
-Install success only proves package acquisition/import. Product scope, stale PyPI state, platform limits, and blockers remain in the front-door sections below.
-- PyPI copy is stale or pending refresh; install success is not product readiness.
-<!-- INSTALL-DX:END -->
-
-#### Quick Start
-
-```bash
-python3 -m venv .venv
-. .venv/bin/activate
-python3 -m pip install --upgrade pip
-python3 -m pip install -e '.[dev]'
-python3 -m zpe_smell.reproduce --output validation/results/latest_public_eval.json
-python3 -m pytest -q
-```
+---
 
 <table width="100%">
 <tr>
@@ -317,3 +285,53 @@ python3 -m pytest -q
 </td>
 </tr>
 </table>
+
+---
+
+<a id="install-developer-commands-detailed"></a>
+
+## Install / Developer Commands Detailed
+
+<!-- INSTALL-DX:START -->
+#### Package Install
+
+Installable package: `python3.11 -m pip install zpe-smell`.
+Current release: `0.1.0` on [PyPI](https://pypi.org/project/zpe-smell/).
+Source: [Zer0pa/ZPE-Smell](https://github.com/Zer0pa/ZPE-Smell/).
+
+```bash
+python3.11 -m pip install zpe-smell
+```
+
+Import smoke:
+
+```bash
+python3.11 - <<'PY'
+import importlib.metadata as md
+import zpe_smell
+
+print("zpe-smell", md.version("zpe-smell"))
+PY
+```
+
+
+CLI smoke:
+
+```bash
+zpe-smell-reproduce --help
+```
+
+Install success only proves package acquisition/import. Product scope, stale PyPI state, platform limits, and blockers remain in the front-door sections below.
+- PyPI copy is stale or pending refresh; install success is not product readiness.
+<!-- INSTALL-DX:END -->
+
+#### Quick Start
+
+```bash
+python3 -m venv .venv
+. .venv/bin/activate
+python3 -m pip install --upgrade pip
+python3 -m pip install -e '.[dev]'
+python3 -m zpe_smell.reproduce --output validation/results/latest_public_eval.json
+python3 -m pytest -q
+```
