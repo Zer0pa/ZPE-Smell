@@ -19,6 +19,7 @@ For full install, smoke, source, and developer commands, [click here](#install-d
 <td width="100%" valign="top">
 <div><span><b>00 · ZPE-SMELL</b> · SURROGATE RECEPTOR PANEL</span> <span>RESEARCH-READY · SURROGATE SCOPE</span></div>
       <h1>A Surrogate <span>Nose For AI</span></h1>
+      <p><strong>Live experiment. Not a release. Ambition headlined. Claims bounded.</strong></p>
       <p>Surrogate receptor-response codec · ZPE-Smell · PyPI <em>zpe-smell</em> v0.1.0 · github.com/Zer0pa/ZPE-Smell</p>
       <p>ZPE-Smell does not smell. It takes a molecule and produces a deterministic surrogate receptor-response packet &mdash; a fixed barcode you can store, retrieve, and compare. On a 35-episode benchmark the packet survives encode and decode at <strong>Spearman 0.9996</strong>, retrieves the right neighbor at <strong>NN@1 94.29%</strong>, and never confuses a mixture, fiber, or adaptation category with another. It is a tool for cheminformatics retrieval and benchmark calibration. It is not empirical olfaction.</p>
 </td>
